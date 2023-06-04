@@ -56,3 +56,18 @@ footer{
   height: 50px;
   background-color: #aaa;
 }
+/*以下メディアクエリ*/
+@media screen and (max-width:768px){
+  /*メイン*/
+main{
+  width: 100%;
+  display:block;
+}
+.content{
+  width: 90%;
+  margin: 0 auto 20px;
+}
+.content:last-child{
+  margin: 0 auto;
+}
+}
